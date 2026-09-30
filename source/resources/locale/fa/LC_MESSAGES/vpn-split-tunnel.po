@@ -1,0 +1,760 @@
+# Persian translation for vpn-split-tunnel
+# Copyright (C) 2025 Sina
+# This file is distributed under the same license as the vpn-split-tunnel package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: vpn-split-tunnel 0.1.0\n"
+"Report-Msgid-Bugs-To: https://github.com/sina/vpn-split-tunnel/issues\n"
+"POT-Creation-Date: 2025-01-15 00:00+0000\n"
+"PO-Revision-Date: 2025-01-15 00:00+0000\n"
+"Last-Translator: Sina <sina@example.com>\n"
+"Language-Team: Persian\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: src/vpn_split_tunnel/ui/main_window.py:599
+msgid "%d IP range"
+msgid_plural "%d IP ranges"
+msgstr[0] "%d بازهٔ IP"
+msgstr[1] "%d بازهٔ IP"
+
+#: src/vpn_split_tunnel/ui/main_window.py:583
+msgid "%d application"
+msgid_plural "%d applications"
+msgstr[0] "%d برنامه"
+msgstr[1] "%d برنامه"
+
+#: src/vpn_split_tunnel/ui/vpn_selector.py:101
+msgid "%d connection detected"
+msgid_plural "%d connections detected"
+msgstr[0] "%d اتصال شناسایی شد"
+msgstr[1] "%d اتصال شناسایی شد"
+
+#: src/vpn_split_tunnel/ui/main_window.py:595
+msgid "%d domain"
+msgid_plural "%d domains"
+msgstr[0] "%d دامنه"
+msgstr[1] "%d دامنه"
+
+#: src/vpn_split_tunnel/ui/domain_editor.py:389
+msgid "%d invalid line was skipped"
+msgid_plural "%d invalid lines were skipped"
+msgstr[0] "%d خط نامعتبر نادیده گرفته شد"
+msgstr[1] "%d خط نامعتبر نادیده گرفته شد"
+
+#: src/vpn_split_tunnel/ui/app_selector.py:478
+msgid "1 application selected"
+msgstr "۱ برنامه انتخاب شده"
+
+#: src/vpn_split_tunnel/ui/domain_editor.py:273
+msgid "192.168.1.0/24"
+msgstr "192.168.1.0/24"
+
+#: src/vpn_split_tunnel/ui/domain_editor.py:74
+msgid "192.168.1.0/24 or 10.0.0.1"
+msgstr ""
+
+#: src/vpn_split_tunnel/ui/vpn_selector.py:121
+msgid "A tunnel the detectors did not recognise can be added here"
+msgstr "در اینجا میتوانید تونلی را که شناساگرها تشخیص ندادند اضافه کنید"
+
+#: src/vpn_split_tunnel/ui/domain_editor.py:88
+msgid "Actions"
+msgstr "اقدامات"
+
+#: src/vpn_split_tunnel/ui/domain_editor.py:58
+msgid "Add"
+msgstr "افزودن"
+
+#: src/vpn_split_tunnel/ui/domain_editor.py:46
+msgid "Add Domain"
+msgstr "افزودن دامنه"
+
+#: src/vpn_split_tunnel/ui/domain_editor.py:67
+msgid "Add IP Address / CIDR"
+msgstr "افزودن آدرس IP / CIDR"
+
+#: src/vpn_split_tunnel/ui/vpn_selector.py:158
+msgid "Add a VPN manually"
+msgstr "افزودن دستی VPN"
+
+#: src/vpn_split_tunnel/ui/domain_editor.py:82
+msgid "Add the IP address or CIDR above to the list"
+msgstr "افزودن آدرس IP یا CIDR بالا به فهرست"
+
+#: src/vpn_split_tunnel/ui/domain_editor.py:61
+msgid "Add the domain above to the list"
+msgstr "افزودن دامنهٔ بالا به فهرست"
+
+#: src/vpn_split_tunnel/ui/app_selector.py:117
+msgid "All System (apply to all traffic)"
+msgstr "همه سیستم (اعمال بر روی همه ترافیک)"
+
+#: src/vpn_split_tunnel/ui/domain_editor.py:344
+msgid "All files"
+msgstr "همهٔ فایلها"
+
+#: src/vpn_split_tunnel/ui/main_window.py:578
+msgid "All system traffic"
+msgstr "تمام ترافیک سیستم"
+
+#: src/vpn_split_tunnel/ui/app_selector.py:157
+msgid "All system traffic (default)"
+msgstr "تمام ترافیک سیستم (پیش‌فرض)"
+
+#: src/vpn_split_tunnel/ui/vpn_selector.py:345
+msgid "Also seen as"
+msgstr "همچنین با این نام‌ها دیده می‌شود"
+
+#: src/vpn_split_tunnel/ui/preferences.py:68
+msgid "Appearance"
+msgstr "ظاهر"
+
+#: src/vpn_split_tunnel/ui/main_window.py:279
+msgid "Applications"
+msgstr "برنامه‌ها"
+
+#: src/vpn_split_tunnel/ui/action_bar.py:65
+msgid "Apply Rules"
+msgstr "اعمال قوانین"
+
+#: src/vpn_split_tunnel/ui/main_window.py:39
+msgid "Apply or remove split tunneling rules"
+msgstr "اعمال یا حذف قوانین تونل جدا شده"
+
+#: src/vpn_split_tunnel/ui/preferences.py:52
+msgid "Apply rules on startup"
+msgstr "اعمال قوانین در شروع"
+
+#: src/vpn_split_tunnel/ui/app_selector.py:118
+msgid "Apply split tunneling to all system traffic"
+msgstr "اعمال تونل جداسازی روی تمام ترافیک سیستم"
+
+#: src/vpn_split_tunnel/ui/app_selector.py:126
+msgid "Apply the split tunnel to all system traffic"
+msgstr "اعمال تونل جدا روی تمام ترافیک سیستم"
+
+#: src/vpn_split_tunnel/ui/domain_editor.py:316
+msgid "Are you sure you want to remove all domains and IP addresses?"
+msgstr "مطمئن هستید که همهٔ دامنهها و آدرسهای IP حذف شوند؟"
+
+#: src/vpn_split_tunnel/ui/main_window.py:840
+msgid "Are you sure you want to reset all settings to defaults? This will clear all selected apps, domains, IPs, and mode."
+msgstr "مطمئن هستید که همهٔ تنظیمات به حالت پیش‌فرض برگردند؟ همهٔ برنامه‌ها، دامنه‌ها، IPها و حالت انتخاب‌شده پاک می‌شوند."
+
+#: src/vpn_split_tunnel/ui/preferences.py:44
+msgid "Auto-detect VPN"
+msgstr "تشخیص خودکار VPN"
+
+#: src/vpn_split_tunnel/ui/preferences.py:53
+msgid "Automatically apply last used split tunneling rules on application start"
+msgstr "اعمال خودکار آخرین قوانین تونل جداسازی هنگام شروع برنامه"
+
+#: src/vpn_split_tunnel/ui/preferences.py:45
+msgid "Automatically detect active VPN connections on startup"
+msgstr "تشخیص خودکار اتصال‌های VPN فعال هنگام شروع برنامه"
+
+#: src/vpn_split_tunnel/ui/preferences.py:37
+msgid "Behavior"
+msgstr "رفتار"
+
+#: src/vpn_split_tunnel/ui/domain_editor.py:193
+msgid "CIDR"
+msgstr ""
+
+#: src/vpn_split_tunnel/ui/main_window.py:334
+msgid "Calculated from your current system routing table, before anything is changed"
+msgstr "برآوردشده از جدول مسیریابی فعلی سیستم‌تان، پیش از تغییر هر چیزی"
+
+#: src/vpn_split_tunnel/ui/domain_editor.py:266
+msgid "Cancel"
+msgstr "انصراف"
+
+#: src/vpn_split_tunnel/ui/preferences.py:155
+msgid "Cgroup Slice"
+msgstr "اسلایس cgroup"
+
+#: src/vpn_split_tunnel/ui/preferences.py:93
+msgid "Choose application language (requires restart)"
+msgstr "انتخاب زبان برنامه (نیازمند راه‌اندازی دوباره)"
+
+#: src/vpn_split_tunnel/ui/preferences.py:82
+msgid "Choose application theme"
+msgstr "انتخاب پوستهٔ برنامه"
+
+#: src/vpn_split_tunnel/ui/main_window.py:36
+msgid "Choose how split tunneling should work"
+msgstr "نحوه عملکرد تونل جدا شده را انتخاب کنید"
+
+#: src/vpn_split_tunnel/ui/domain_editor.py:94
+msgid "Clear All"
+msgstr "پاک کردن همه"
+
+#: src/vpn_split_tunnel/ui/domain_editor.py:315
+msgid "Clear All Entries"
+msgstr "پاک کردن همه‌ی ورودی‌ها"
+
+#: src/vpn_split_tunnel/ui/main_window.py:370
+msgid "Clear the form and restore the initial settings"
+msgstr "پاک کردن فرم و بازگرداندن تنظیمات اولیه"
+
+#: src/vpn_split_tunnel/ui/vpn_selector.py:347
+msgid "Config File"
+msgstr "فایل پیکربندی"
+
+#: src/vpn_split_tunnel/ui/vpn_selector.py:153
+msgid "Connect a VPN, then scan again. Nothing is started by this app."
+msgstr "ابتدا VPN را وصل کنید، سپس دوباره اسکن کنید. این برنامه هیچ‌چیز را اجرا نمی‌کند."
+
+#: src/vpn_split_tunnel/ui/vpn_selector.py:136
+msgid "Connections"
+msgstr "اتصال‌ها"
+
+#: src/vpn_split_tunnel/ui/domain_editor.py:118
+msgid "Current List"
+msgstr "فهرست فعلی"
+
+#: src/vpn_split_tunnel/ui/main_window.py:300
+msgid "Current Rules"
+msgstr "قوانین فعلی"
+
+#: src/vpn_split_tunnel/ui/vpn_selector.py:339
+msgid "DNS Servers"
+msgstr "سرورهای DNS"
+
+#: src/vpn_split_tunnel/ui/preferences.py:79
+msgid "Dark"
+msgstr "تیره"
+
+#: src/vpn_split_tunnel/ui/main_window.py:35
+msgid "Detected VPN status and details"
+msgstr "وضعیت و جزئیات VPNهای شناسایی‌شده"
+
+#: src/vpn_split_tunnel/ui/vpn_selector.py:67
+msgid "Detected VPNs"
+msgstr "VPNهای شناسایی‌شده"
+
+#: src/vpn_split_tunnel/ui/main_window.py:224
+msgid "Developed by Sina Khanzadeh"
+msgstr "توسعه‌یافته توسط سینا خانزاده"
+
+#: src/vpn_split_tunnel/ui/preferences.py:62
+msgid "Display desktop notifications when rules are applied or removed"
+msgstr "نمایش اعلان دسکتاپ هنگام اعمال یا حذف قوانین"
+
+#: src/vpn_split_tunnel/ui/domain_editor.py:190
+msgid "Domain"
+msgstr "دامنه"
+
+#: src/vpn_split_tunnel/ui/domain_editor.py:35
+msgid "Domains and IP Addresses"
+msgstr "دامنه‌ها و آدرس‌های IP"
+
+#: src/vpn_split_tunnel/ui/domain_editor.py:119
+msgid "Domains and IP addresses currently configured"
+msgstr "دامنه‌ها و آدرس‌های IP پیکربندی‌شده"
+
+#: src/vpn_split_tunnel/ui/domain_editor.py:263
+msgid "Edit Entry"
+msgstr "ویرایش ورودی"
+
+#: src/vpn_split_tunnel/ui/domain_editor.py:207
+msgid "Edit this entry"
+msgstr "ویرایش این ورودی"
+
+#: src/vpn_split_tunnel/ui/domain_editor.py:36
+msgid "Enter domains or IP addresses (one per line). Supports CIDR notation for IP ranges. Empty by default."
+msgstr "دامنه‌ها یا آدرس‌های IP را وارد کنید (هر خط یک مورد). برای بازه‌های IP نشانه‌گذاری CIDR پشتیبانی می‌شود. به‌طور پیش‌فرض خالی است."
+
+#: src/vpn_split_tunnel/ui/domain_editor.py:442
+msgid "Error"
+msgstr "خطا"
+
+#: src/vpn_split_tunnel/ui/vpn_selector.py:106
+msgid "Every tunnel that is up right now, with its addresses"
+msgstr "هر تونلی که همین حالا برقرار است، همراه با آدرس‌هایش"
+
+#: src/vpn_split_tunnel/ui/mode_selector.py:54
+msgid "Everything goes through VPN EXCEPT selected applications and domains. They use direct connection."
+msgstr "همه ترافیک از تونل VPN عبور می‌کند بجز برنامه‌ها و دامنه‌های انتخاب شده. آن‌ها از اتصال مستقیم استفاده می‌کنند."
+
+#: src/vpn_split_tunnel/ui/main_window.py:573
+msgid "Everything goes through the VPN except the selected apps and addresses"
+msgstr "همه‌چیز از VPN عبور می‌کند به‌جز برنامه‌ها و آدرس‌های انتخاب‌شده"
+
+#: src/vpn_split_tunnel/ui/mode_selector.py:53
+msgid "Exclude Mode (Inverse Split/Reverse)"
+msgstr "حالت شامل‌نشدن (Inverse Split/Reverse)"
+
+#: src/vpn_split_tunnel/ui/mode_selector.py:62
+msgid "Exclude mode: everything except the selected apps and domains uses the VPN"
+msgstr "حالت استثنا: همه‌چیز به‌جز برنامه‌ها و دامنه‌های انتخاب‌شده از VPN استفاده می‌کند"
+
+#: src/vpn_split_tunnel/ui/domain_editor.py:399
+msgid "Export Domains/IPs"
+msgstr "خروجی دامنه‌ها/IPها"
+
+#: src/vpn_split_tunnel/ui/domain_editor.py:109
+msgid "Export to file"
+msgstr "صادرات به فایل"
+
+#: src/vpn_split_tunnel/ui/main_window.py:814
+msgid "Failed to apply rules"
+msgstr "اعمال قوانین ناموفق بود"
+
+#: src/vpn_split_tunnel/ui/preferences.py:129
+msgid "Firewall Mark"
+msgstr "علامت فایروال"
+
+#: src/vpn_split_tunnel/ui/vpn_selector.py:337
+msgid "Gateway"
+msgstr "دروازه"
+
+#: src/vpn_split_tunnel/ui/preferences.py:33
+msgid "General"
+msgstr "عمومی"
+
+#: src/vpn_split_tunnel/ui/domain_editor.py:196
+msgid "IP"
+msgstr ""
+
+#: src/vpn_split_tunnel/ui/vpn_selector.py:332
+msgid "IP Addresses"
+msgstr "آدرس‌های IP"
+
+#: src/vpn_split_tunnel/ui/domain_editor.py:335
+msgid "Import Domains/IPs"
+msgstr "ورود دامنه‌ها/IPها"
+
+#: src/vpn_split_tunnel/ui/domain_editor.py:102
+msgid "Import from file"
+msgstr "واردات از فایل"
+
+#: src/vpn_split_tunnel/ui/mode_selector.py:37
+msgid "Include Mode (Split-Include)"
+msgstr "حالت شامل‌شدن (Split-Include)"
+
+#: src/vpn_split_tunnel/ui/mode_selector.py:46
+msgid "Include mode: only the selected apps and domains use the VPN"
+msgstr "حالت شامل: فقط برنامه‌ها و دامنه‌های انتخاب‌شده از VPN استفاده می‌کنند"
+
+#: src/vpn_split_tunnel/ui/action_bar.py:70
+msgid "Install the split-tunnel rules into the live network (asks for admin permission)"
+msgstr "نصب قوانین تونل جدا در شبکهٔ فعال (نیازمند اجازهٔ مدیر است)"
+
+#: src/vpn_split_tunnel/ui/app_selector.py:104
+msgid "Installed Applications"
+msgstr "برنامه‌های نصب شده"
+
+#: src/vpn_split_tunnel/ui/vpn_selector.py:325
+msgid "Interface"
+msgstr "رابط"
+
+#: src/vpn_split_tunnel/ui/domain_editor.py:253
+msgid "Invalid IP address or CIDR notation"
+msgstr "آدرس IP یا نشانه‌گذاری CIDR نامعتبر است"
+
+#: src/vpn_split_tunnel/ui/preferences.py:92
+msgid "Language"
+msgstr "زبان"
+
+#: src/vpn_split_tunnel/ui/preferences.py:78
+msgid "Light"
+msgstr "روشن"
+
+#: src/vpn_split_tunnel/ui/domain_editor.py:105
+msgid "Load domains and IPs from a text file"
+msgstr "بارگذاری دامنه‌ها و آدرس‌های IP از یک فایل متنی"
+
+#: src/vpn_split_tunnel/ui/vpn_selector.py:72
+msgid "Looking for active VPN connections"
+msgstr "در جستجوی اتصال‌های VPN فعال"
+
+#: src/vpn_split_tunnel/ui/preferences.py:142
+msgid "Lower runs first. Must be below your VPN client's own rules, or they take precedence and these never apply"
+msgstr "مقادیر کمتر زودتر اجرا می‌شوند. باید پایین‌تر از قوانین خودِ کلاینت VPN باشد؛ وگرنه آن‌ها اولویت می‌گیرند و این قوانین هرگز اعمال نمی‌شوند"
+
+#: src/vpn_split_tunnel/ui/vpn_selector.py:341
+msgid "MTU"
+msgstr "MTU"
+
+#: src/vpn_split_tunnel/ui/main_window.py:38
+msgid "Manage domains and IP ranges"
+msgstr "مدیریت دامنه‌ها و بازه‌های IP"
+
+#: src/vpn_split_tunnel/ui/vpn_selector.py:119
+msgid "Manual entry"
+msgstr "ورودی دستی"
+
+#: src/vpn_split_tunnel/ui/main_window.py:312
+msgid "Mode"
+msgstr "حالت"
+
+#: src/vpn_split_tunnel/ui/mode_selector.py:31
+msgid "Mode Selection"
+msgstr "انتخاب حالت"
+
+#: src/vpn_split_tunnel/ui/domain_editor.py:264
+msgid "Modify the domain or IP address:"
+msgstr "دامنه یا آدرس IP را تغییر دهید:"
+
+#: src/vpn_split_tunnel/ui/preferences.py:99
+msgid "Network"
+msgstr "شبکه"
+
+#: src/vpn_split_tunnel/ui/action_bar.py:47
+msgid "No VPN selected"
+msgstr "هیچ VPNی انتخاب نشده"
+
+#: src/vpn_split_tunnel/ui/main_window.py:616
+msgid "No VPN selected, so there is nothing to calculate yet."
+msgstr "هیچ VPNی انتخاب نشده، بنابراین هنوز چیزی برای محاسبه نیست."
+
+#: src/vpn_split_tunnel/ui/vpn_selector.py:97
+msgid "No active VPN tunnel was found on this system"
+msgstr "هیچ تونل VPN فعالی روی این سیستم پیدا نشد"
+
+#: src/vpn_split_tunnel/ui/app_selector.py:470
+msgid "No applications selected"
+msgstr "هیچ برنامه‌ای انتخاب نشده"
+
+#: src/vpn_split_tunnel/ui/domain_editor.py:134
+msgid "No domains or IPs added yet. Add some above."
+msgstr "هنوز دامنه یا IP اضافه نشده. در بخش بالا اضافه کنید."
+
+#: src/vpn_split_tunnel/ui/main_window.py:590
+msgid "None"
+msgstr "هیچ"
+
+#: src/vpn_split_tunnel/ui/main_window.py:563
+msgid "None selected"
+msgstr "هیچ‌چیز انتخاب نشده"
+
+#: src/vpn_split_tunnel/ui/vpn_selector.py:152
+msgid "Not connected to any VPN"
+msgstr "به هیچ VPNای متصل نیستید"
+
+#: src/vpn_split_tunnel/ui/main_window.py:659
+msgid "Note"
+msgstr "نکته"
+
+#: src/vpn_split_tunnel/ui/domain_editor.py:445
+msgid "OK"
+msgstr "باشه"
+
+#: src/vpn_split_tunnel/ui/mode_selector.py:38
+msgid "Only selected applications and domains go through VPN. Everything else uses direct connection."
+msgstr "فقط برنامه‌ها و دامنه‌های انتخاب شده از تونل VPN عبور می‌کنند. بقیه از اتصال مستقیم استفاده می‌کنند."
+
+#: src/vpn_split_tunnel/ui/main_window.py:569
+msgid "Only the selected apps and addresses go through the VPN"
+msgstr "فقط برنامه‌ها و آدرس‌های انتخاب‌شده از VPN عبور می‌کنند"
+
+#: src/vpn_split_tunnel/ui/vpn_selector.py:125
+msgid "Pick a tunnel interface, or type its name"
+msgstr "یک رابط تونل انتخاب کنید یا نام آن را بنویسید"
+
+#: src/vpn_split_tunnel/ui/vpn_selector.py:259
+msgid "Pick a tunnel interface, or type its name."
+msgstr "یک رابط تونل انتخاب کنید یا نام آن را بنویسید."
+
+#: src/vpn_split_tunnel/ui/domain_editor.py:234
+msgid "Please enter a valid domain"
+msgstr "لطفاً یک دامنه‌ی معتبر وارد کنید"
+
+#: src/vpn_split_tunnel/ui/preferences.py:121
+msgid "Policy routing table number (1-255)"
+msgstr "شماره‌ی جدول مسیریابی Policy (۱-۲۵۵)"
+
+#: src/vpn_split_tunnel/ui/preferences.py:25
+msgid "Preferences"
+msgstr "ترجیحات"
+
+#: src/vpn_split_tunnel/ui/vpn_selector.py:343
+msgid "Processes"
+msgstr "فرایندها"
+
+#: src/vpn_split_tunnel/ui/vpn_selector.py:328
+msgid "Protocol"
+msgstr "پروتکل"
+
+#: src/vpn_split_tunnel/ui/vpn_selector.py:127
+msgid "Register a tunnel the detectors missed"
+msgstr "ثبت یک تونل که شناساگرها از قلم انداخته‌اند"
+
+#: src/vpn_split_tunnel/ui/action_bar.py:57
+msgid "Remove Rules"
+msgstr "حذف قوانین"
+
+#: src/vpn_split_tunnel/ui/domain_editor.py:98
+msgid "Remove every domain and IP from the list"
+msgstr "حذف همهٔ دامنه‌ها و آدرس‌های IP از فهرست"
+
+#: src/vpn_split_tunnel/ui/domain_editor.py:215
+msgid "Remove this entry"
+msgstr "حذف این ورودی"
+
+#: src/vpn_split_tunnel/ui/main_window.py:843
+msgid "Reset"
+msgstr "بازنشانی"
+
+#: src/vpn_split_tunnel/ui/main_window.py:366
+msgid "Reset to Defaults"
+msgstr "بازنشانی به پیش‌فرض"
+
+#: src/vpn_split_tunnel/ui/main_window.py:339
+msgid "Result"
+msgstr "نتیجه"
+
+#: src/vpn_split_tunnel/ui/preferences.py:103
+msgid "Routing Configuration"
+msgstr "پیکربندی مسیریابی"
+
+#: src/vpn_split_tunnel/ui/preferences.py:120
+msgid "Routing Table ID"
+msgstr "شناسه‌ی جدول مسیریابی"
+
+#: src/vpn_split_tunnel/ui/preferences.py:140
+msgid "Rule Priority"
+msgstr "اولویت قانون"
+
+#: src/vpn_split_tunnel/ui/main_window.py:809
+msgid "Rules applied successfully"
+msgstr "قوانین با موفقیت اعمال شد"
+
+#: src/vpn_split_tunnel/ui/main_window.py:805
+msgid "Rules applied with warnings"
+msgstr "قوانین با هشدار اعمال شد"
+
+#: src/vpn_split_tunnel/ui/main_window.py:833
+msgid "Rules removed successfully"
+msgstr "قوانین با موفقیت حذف شد"
+
+#: src/vpn_split_tunnel/ui/vpn_selector.py:237
+msgid "Rules target this VPN"
+msgstr "قوانین این VPN را هدف می‌گیرند"
+
+#: src/vpn_split_tunnel/ui/domain_editor.py:267
+msgid "Save"
+msgstr "ذخیره"
+
+#: src/vpn_split_tunnel/ui/domain_editor.py:112
+msgid "Save the current domains and IPs to a text file"
+msgstr "ذخیرهٔ دامنه‌ها و آدرس‌های IP کنونی در یک فایل متنی"
+
+#: src/vpn_split_tunnel/ui/vpn_selector.py:77
+msgid "Scan again"
+msgstr "اسکن دوباره"
+
+#: src/vpn_split_tunnel/ui/vpn_selector.py:71
+msgid "Scanning..."
+msgstr "در حال اسکن..."
+
+#: src/vpn_split_tunnel/ui/app_selector.py:133
+msgid "Search"
+msgstr "جستجو"
+
+#: src/vpn_split_tunnel/ui/app_selector.py:137
+msgid "Search applications..."
+msgstr "جستجوی برنامه‌ها..."
+
+#: src/vpn_split_tunnel/ui/main_window.py:37
+msgid "Select applications to include or exclude from the VPN tunnel"
+msgstr "برنامه‌ها را برای شامل یا مستثنی شدن از تونل VPN انتخاب کنید"
+
+#: src/vpn_split_tunnel/ui/vpn_selector.py:137
+msgid "Select the connection the rules should apply to"
+msgstr "اتصالی را انتخاب کنید که قوانین روی آن اعمال شوند"
+
+#: src/vpn_split_tunnel/ui/app_selector.py:306
+msgid "Select this application for the split tunnel"
+msgstr "انتخاب این برنامه برای تونل جدا"
+
+#: src/vpn_split_tunnel/ui/app_selector.py:156
+msgid "Selected"
+msgstr "انتخاب‌شده"
+
+#: src/vpn_split_tunnel/ui/vpn_selector.py:190
+msgid "Send the split tunnel through this VPN"
+msgstr "ارسال تونل جدا از طریق این VPN"
+
+#: src/vpn_split_tunnel/ui/main_window.py:869
+msgid "Settings reset to defaults"
+msgstr "تنظیمات به پیش‌فرض بازنشانی شد"
+
+#: src/vpn_split_tunnel/ui/preferences.py:61
+msgid "Show notifications"
+msgstr "نمایش اعلان‌ها"
+
+#: src/vpn_split_tunnel/ui/main_window.py:275
+msgid "Split Tunneling Mode"
+msgstr "حالت تونل جدا شده"
+
+#: src/vpn_split_tunnel/ui/app_selector.py:329
+msgid "Start this application so its traffic can be told apart"
+msgstr "این برنامه را اجرا کنید تا ترافیکش قابل تشخیص باشد"
+
+#: src/vpn_split_tunnel/ui/main_window.py:294
+msgid "Status and Actions"
+msgstr "وضعیت و اقدامات"
+
+#: src/vpn_split_tunnel/ui/main_window.py:533
+msgid "Status: Active"
+msgstr "وضعیت: فعال"
+
+#: src/vpn_split_tunnel/ui/main_window.py:536
+msgid "Status: Applying..."
+msgstr "وضعیت: در حال اعمال..."
+
+#: src/vpn_split_tunnel/ui/main_window.py:538
+msgid "Status: Error"
+msgstr "وضعیت: خطا"
+
+#: src/vpn_split_tunnel/ui/action_bar.py:41
+msgid "Status: Ready"
+msgstr "وضعیت: آماده"
+
+#: src/vpn_split_tunnel/ui/preferences.py:77
+msgid "System"
+msgstr "سیستم"
+
+#: src/vpn_split_tunnel/ui/preferences.py:112
+msgid "TUN interface name (e.g., tun0, wg0, xray_tun)"
+msgstr "نام رابط TUN (مثلاً tun0، wg0، xray_tun)"
+
+#: src/vpn_split_tunnel/ui/main_window.py:307
+msgid "Target VPN"
+msgstr "VPN هدف"
+
+#: src/vpn_split_tunnel/ui/domain_editor.py:340
+msgid "Text files"
+msgstr "فایل‌های متنی"
+
+#: src/vpn_split_tunnel/ui/vpn_selector.py:181
+msgid "The rules target this connection"
+msgstr "قوانین این اتصال را هدف می‌گیرند"
+
+#: src/vpn_split_tunnel/ui/preferences.py:72
+msgid "Theme"
+msgstr "پوسته"
+
+#: src/vpn_split_tunnel/ui/main_window.py:351
+msgid "These do not stop the rules from being installed, but they decide what the rules can actually do"
+msgstr "این‌ها مانع نصب شدن قوانین نمی‌شوند، اما تعیین می‌کنند قوانین واقعاً چه کاری می‌توانند انجام دهند"
+
+#: src/vpn_split_tunnel/ui/app_selector.py:194
+msgid "These files are not listed below, so they cannot be selected for split tunneling"
+msgstr "این فایل‌ها در فهرست پایین نیستند، پس نمی‌توان آن‌ها را برای تونل جداسازی انتخاب کرد"
+
+#: src/vpn_split_tunnel/ui/main_window.py:349
+msgid "Things To Know"
+msgstr "نکاتی که باید بدانید"
+
+#: src/vpn_split_tunnel/ui/app_selector.py:324
+msgid "This application is running where the split tunnel can see it"
+msgstr "این برنامه در حال اجرا در جایی است که تونل جداسازی می‌تواند آن را ببیند"
+
+#: src/vpn_split_tunnel/ui/app_selector.py:106
+msgid "Traffic can only be told apart per application for applications running in this app's own group. Use the play button to start one that way; an application started any other way cannot be separated from the rest of the system."
+msgstr "ترافیک فقط برای برنامه‌هایی که در گروه خودِ این برنامه اجرا می‌شوند قابل تفکیک است. با دکمه‌ی پخش یکی را آن‌طور اجرا کنید؛ برنامه‌ای که به هر شکل دیگری اجرا شده باشد نمی‌تواند از بقیه‌ی سیستم جدا شود."
+
+#: src/vpn_split_tunnel/ui/vpn_selector.py:335
+msgid "Tunnel Peer"
+msgstr "همتای تونل"
+
+#: src/vpn_split_tunnel/ui/vpn_selector.py:261
+msgid "Type the VPN interface name, for example tun0 or wg0."
+msgstr "نام رابط VPN را بنویسید، مثلاً tun0 یا wg0."
+
+#: src/vpn_split_tunnel/ui/action_bar.py:61
+msgid "Undo the rules this app applied"
+msgstr "لغو قوانینی که این برنامه اعمال کرده"
+
+#: src/vpn_split_tunnel/ui/main_window.py:157
+msgid "Universal VPN Split Tunneling"
+msgstr "مدیریت جهانی تونل جدا شده VPN"
+
+#: src/vpn_split_tunnel/ui/about.py:25
+msgid "Universal VPN Split Tunneling Manager for Linux.\n\nDeveloped by Sina Khanzadeh\n\nContact:\nTelegram: @programmer_1998\nDiscord: @programmer_1998\nInstagram: @programmer_1998\nWebsite: sina-khanzadeh.ir\nEmail: khanzadeh.1377@gmail.com"
+msgstr "مدیر جهانی تونل جدا شده VPN برای لینوکس.\n\nتوسعه‌یافته توسط سینا خانزاده\n\nتماس:\nتلگرام: @programmer_1998\nدیسکورد: @programmer_1998\nاینستاگرام: @programmer_1998\nوب‌سایت: sina-khanzadeh.ir\nایمیل: khanzadeh.1377@gmail.com"
+
+#: src/vpn_split_tunnel/ui/app_selector.py:204
+msgid "Unreadable entry"
+msgstr "ورودی ناخوانا"
+
+#: src/vpn_split_tunnel/ui/vpn_selector.py:186
+msgid "Use this VPN"
+msgstr "استفاده از این VPN"
+
+#: src/vpn_split_tunnel/ui/main_window.py:271
+msgid "VPN Connection"
+msgstr "اتصال VPN"
+
+#: src/vpn_split_tunnel/ui/preferences.py:111
+msgid "VPN Interface"
+msgstr "رابط VPN"
+
+#: src/vpn_split_tunnel/ui/main_window.py:45
+msgid "VPN Split Tunnel"
+msgstr "مدیریت تونل جدا شده VPN"
+
+#: src/vpn_split_tunnel/ui/main_window.py:332
+msgid "What This Will Do"
+msgstr "این چه کاری انجام می‌دهد"
+
+#: src/vpn_split_tunnel/ui/main_window.py:302
+msgid "What will be applied when you press Apply Rules"
+msgstr "با زدن دکمه‌ی اعمال قوانین چه چیزی اعمال می‌شود"
+
+#: src/vpn_split_tunnel/ui/domain_editor.py:53
+msgid "example.com"
+msgstr "example.com"
+
+#: src/vpn_split_tunnel/ui/preferences.py:130
+msgid "fwmark value for policy routing (1-2147483647)"
+msgstr "مقدار fwmark برای مسیریابی Policy (۱-۲۱۴۷۴۸۳۶۴۷)"
+
+#: src/vpn_split_tunnel/ui/preferences.py:156
+msgid "systemd slice name for cgroup v2 (e.g., vpn-split-tunnel.slice)"
+msgstr "نام اسلایس systemd برای cgroup v2 (مثلاً vpn-split-tunnel.slice)"
+
+#: src/vpn_split_tunnel/ui/vpn_selector.py:319
+msgid "via %s"
+msgstr "از طریق %s"
+
+#: src/vpn_split_tunnel/ui/app_selector.py:190
+msgid "{count} application entries could not be read"
+msgstr "{count} ورودی برنامه خوانده نشد"
+
+#: src/vpn_split_tunnel/ui/app_selector.py:187
+msgid "{count} application entry could not be read"
+msgstr "{count} ورودی برنامه خوانده نشد"
+
+#: src/vpn_split_tunnel/ui/app_selector.py:480
+msgid "{count} applications selected"
+msgstr "{count} برنامه انتخاب شده"
+
+#: src/vpn_split_tunnel/ui/app_selector.py:390
+msgid "{name} is running where the split tunnel can see it."
+msgstr "{name} در جایی در حال اجراست که تونل جداسازی آن را می‌بیند."
+
+#: src/vpn_split_tunnel/ui/app_selector.py:426
+msgid "{name} started, but it is not in the split group, so its traffic cannot be told apart from the rest of the system."
+msgstr "{name} اجرا شد، اما در گروه جداسازی نیست؛ پس ترافیکش از بقیه‌ی سیستم قابل تشخیص نیست."
+
+#: src/vpn_split_tunnel/ui/app_selector.py:484
+msgid "{selection} · none started yet, so none can be matched"
+msgstr "{selection} · هنوز هیچ‌کدام اجرا نشده‌اند، پس هیچ‌کدام قابل تطبیق نیستند"
+
+#: src/vpn_split_tunnel/ui/app_selector.py:490
+msgid "{selection} · {started} started"
+msgstr "{selection} · {started} در حال اجرا"
+
+#: src/vpn_split_tunnel/ui/main_window.py:635
+msgid "{total} of those are applications, and {running} of them are running where the rules can tell their traffic apart."
+msgstr "{total} مورد از آن‌ها برنامه‌اند و {running} مورد در جایی در حال اجرا هستند که قوانین می‌توانند ترافیکشان را تشخیص دهند."
+

@@ -1,0 +1,300 @@
+/* VPN Split Tunnel - Custom Styles
+ *
+ * Loaded at startup by ui/style.py from either the installed copy or the
+ * source checkout. The file is optional: a machine without it simply gets
+ * the plain libadwaita look.
+ *
+ * Only the named colours and classes that libadwaita actually exposes are
+ * used here, so the stylesheet cannot break a theme; everything degrades to
+ * the default look when a variable is undefined.
+ */
+
+/* Window geometry is set programmatically; keep render-friendly defaults. */
+MainWindow {
+}
+
+/* ------------------------------------------------------------------ */
+/* Sidebar navigation                                                  */
+/* ------------------------------------------------------------------ */
+.sidebar {
+    background-color: @window_bg_color;
+}
+
+/* Divider between the sidebar and the content pane. This needs to follow
+ * the pane flip in RTL, and GTK (4.14) understands no logical border
+ * properties in CSS; the paned handle is a "separator" node that always
+ * sits between the two panes, so it is the direction-proof place to draw
+ * the line. */
+.main-panes > separator {
+    background-color: @borders_color;
+    min-width: 1px;
+}
+
+.navigation-sidebar {
+    background-color: transparent;
+    padding: 4px 6px;
+}
+
+.navigation-sidebar > row {
+    padding: 10px 14px;
+    margin: 2px 4px;
+    border-radius: 10px;
+    transition: background-color 120ms ease, color 120ms ease;
+}
+
+.navigation-sidebar > row:hover {
+    background-color: alpha(@accent_bg_color, 0.35);
+}
+
+.navigation-sidebar > row:selected {
+    background-color: @accent_bg_color;
+    color: @accent_fg_color;
+    box-shadow: 0 1px 3px alpha(black, 0.2);
+}
+
+.navigation-sidebar > row:selected .nav-icon {
+    color: @accent_fg_color;
+}
+
+.navigation-sidebar > row:selected .title-2 {
+    font-weight: 700;
+}
+
+.nav-icon {
+    color: @secondary_text_color;
+}
+
+/* ------------------------------------------------------------------ */
+/* Status indicators                                                   */
+/* ------------------------------------------------------------------ */
+.status-ready {
+    color: @secondary_text_color;
+}
+
+.status-applying {
+    color: @warning_color;
+}
+
+.status-active {
+    color: @success_color;
+    font-weight: 700;
+}
+
+.status-error {
+    color: @error_color;
+    font-weight: 600;
+}
+
+.vpn-connected {
+    color: @success_color;
+    font-weight: 600;
+}
+
+.vpn-disconnected {
+    color: @error_color;
+}
+
+.vpn-connecting {
+    color: @warning_color;
+}
+
+/* ------------------------------------------------------------------ */
+/* Application rows                                                    */
+/* ------------------------------------------------------------------ */
+/* The icon sits in an Adw.ActionRow prefix, which already spaces it from
+ * the title; GTK 4.14 has no margin-end in CSS, and a physical side would
+ * put the gap on the wrong edge in one of the two text directions, so
+ * nothing extra is declared here. */
+
+/* A row whose application is running inside the split group: its traffic is
+ * actually matchable, which is the state that matters to this app. */
+.app-running {
+    background-color: alpha(@success_color, 0.08);
+    /* A full-width row is not mirrored in RTL, so the physical side is
+     * direction-proof here. */
+    border-left: 3px solid @success_color;
+}
+
+.app-running:hover {
+    background-color: alpha(@success_color, 0.14);
+}
+
+/* ------------------------------------------------------------------ */
+/* Domain / IP badges                                                  */
+/* ------------------------------------------------------------------ */
+.domain-type-badge {
+    padding: 2px 8px;
+    border-radius: 999px;
+    font-size: 0.75rem;
+    font-weight: 600;
+}
+
+.domain-type-domain {
+    background-color: alpha(@accent_bg_color, 0.25);
+    color: @accent_color;
+}
+
+.domain-type-ip {
+    background-color: alpha(@success_color, 0.18);
+    color: @success_color;
+}
+
+.domain-type-cidr {
+    background-color: alpha(@warning_color, 0.2);
+    color: @warning_color;
+}
+
+/* ------------------------------------------------------------------ */
+/* Pills                                                               */
+/* ------------------------------------------------------------------ */
+.pill {
+    border-radius: 999px;
+    padding: 4px 14px;
+    font-weight: 600;
+}
+
+.pill.flat {
+    background-color: alpha(@accent_bg_color, 0.18);
+    color: @accent_color;
+}
+
+.pill.suggested-action {
+    background-color: @accent_bg_color;
+    color: @accent_fg_color;
+}
+
+/* ------------------------------------------------------------------ */
+/* Action bar and cards                                                */
+/* ------------------------------------------------------------------ */
+ActionBar {
+    background-color: @card_bg_color;
+    border-top: 1px solid @borders_color;
+    padding: 8px 12px;
+}
+
+#status_label {
+    font-size: 1.05rem;
+}
+
+#details_label {
+    font-size: 0.875rem;
+}
+
+AdwPreferencesGroup {
+    background-color: @card_bg_color;
+    border-radius: 12px;
+    margin: 6px 12px;
+    padding: 6px;
+    box-shadow: 0 1px 2px alpha(black, 0.06);
+}
+
+AdwPreferencesGroup > AdwActionRow {
+    margin: 4px 8px;
+    border-radius: 8px;
+    transition: background-color 100ms ease;
+}
+
+AdwPreferencesGroup > AdwActionRow:hover {
+    background-color: alpha(@accent_bg_color, 0.22);
+}
+
+/* ------------------------------------------------------------------ */
+/* Buttons and entries                                                 */
+/* ------------------------------------------------------------------ */
+GtkButton {
+    border-radius: 8px;
+    padding: 8px 16px;
+}
+
+GtkButton.suggested-action {
+    background-color: @accent_bg_color;
+    color: @accent_fg_color;
+}
+
+GtkButton.destructive-action {
+    background-color: @error_color;
+    color: white;
+}
+
+#apply_button:disabled,
+#remove_button:disabled {
+    opacity: 0.5;
+}
+
+GtkEntry,
+GtkSearchEntry {
+    border-radius: 8px;
+    padding: 8px 12px;
+}
+
+GtkEntry:focus,
+GtkSearchEntry:focus {
+    border-color: @accent_color;
+    box-shadow: 0 0 0 2px alpha(@accent_bg_color, 0.5);
+}
+
+GtkSpinButton {
+    border-radius: 8px;
+    padding: 8px 12px;
+}
+
+/* ------------------------------------------------------------------ */
+/* Paned content area                                                  */
+/* ------------------------------------------------------------------ */
+.main-panes {
+    background-color: @window_bg_color;
+}
+
+/* ------------------------------------------------------------------ */
+/* List boxes                                                          */
+/* ------------------------------------------------------------------ */
+GtkListBox {
+    background-color: transparent;
+}
+
+GtkListBoxRow {
+    background-color: transparent;
+    border-radius: 8px;
+}
+
+GtkListBoxRow:hover {
+    background-color: alpha(@accent_bg_color, 0.22);
+}
+
+GtkListBoxRow:selected {
+    background-color: @accent_bg_color;
+}
+
+/* ------------------------------------------------------------------ */
+/* Scrollbars                                                          */
+/* ------------------------------------------------------------------ */
+GtkScrollbar {
+    min-width: 8px;
+    min-height: 8px;
+}
+
+GtkScrolledWindow {
+    border: none;
+}
+
+/* ------------------------------------------------------------------ */
+/* Tooltips                                                            */
+/* ------------------------------------------------------------------ */
+GtkTooltip {
+    background-color: @window_bg_color;
+    border: 1px solid @borders_color;
+    border-radius: 8px;
+    padding: 8px 12px;
+}
+
+/* ------------------------------------------------------------------ */
+/* Focus                                                               */
+/* ------------------------------------------------------------------ */
+/* Note: a `@media (prefers-reduced-motion)` block was removed because GTK
+ * 4.14's CSS parser does not know @media at all and rejected it. The
+ * app's remaining transitions are short (<120 ms) background/colour
+ * fades. */
+*:focus-visible {
+    outline: 2px solid @accent_color;
+    outline-offset: 2px;
+}

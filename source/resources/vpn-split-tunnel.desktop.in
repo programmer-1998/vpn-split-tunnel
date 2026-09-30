@@ -1,0 +1,14 @@
+[Desktop Entry]
+Type=Application
+Name=VPN Split Tunnel
+GenericName=VPN Split Tunneling Manager
+Comment=Universal VPN Split Tunneling Manager for Linux
+Name[fa]=مدیریت تونل جدا شده VPN
+Comment[fa]=مدیر جهانی تونل جدا شده VPN برای لینوکس
+Exec=vpn-split-tunnel
+Icon=com.github.sina.vpn-split-tunnel
+Terminal=false
+Categories=Network;Security;
+Keywords=VPN;Split Tunnel;WireGuard;OpenVPN;Network;Security;
+StartupNotify=true
+StartupWMClass=com.github.sina.vpn-split-tunnel

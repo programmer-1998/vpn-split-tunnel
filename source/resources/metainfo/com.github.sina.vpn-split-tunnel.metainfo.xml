@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>com.github.sina.vpn-split-tunnel</id>
+  <name>VPN Split Tunnel</name>
+  <summary>Universal VPN Split Tunneling Manager</summary>
+  <description>
+    <p>A modern GTK4/libadwaita application for managing per-application and per-domain split tunneling across multiple VPN providers.</p>
+    <p>Features:</p>
+    <ul>
+      <li>Supports WireGuard, OpenVPN, Tailscale, Xray/Sing-box (VLESS/VMESS), Windscribe, HAP, NetworkManager VPN</li>
+      <li>Two modes: Include (only selected traffic through VPN) and Exclude (all except selected through VPN)</li>
+      <li>Application selection from installed apps with search</li>
+      <li>Domain and IP/CIDR list management with import/export</li>
+      <li>Light/Dark theme support</li>
+      <li>Persian and English languages</li>
+      <li>PolicyKit integration for secure privilege escalation</li>
+      <li>nftables + cgroups v2 based implementation (like netslice)</li>
+    </ul>
+  </description>
+  <launchable type="desktop-id">com.github.sina.vpn-split-tunnel.desktop</launchable>
+  <url type="homepage">https://github.com/sina/vpn-split-tunnel</url>
+  <url type="bugtracker">https://github.com/sina/vpn-split-tunnel/issues</url>
+  <url type="help">https://github.com/sina/vpn-split-tunnel/wiki</url>
+  <project_license>GPL-3.0-or-later</project_license>
+  <developer_name>Sina</developer_name>
+  <metadata_license>CC0-1.0</metadata_license>
+  <provides>
+    <binary>vpn-split-tunnel</binary>
+  </provides>
+  <screenshots>
+    <screenshot type="default">
+      <image>https://github.com/sina/vpn-split-tunnel/raw/main/screenshots/main.png</image>
+      <caption>Main window showing VPN selection and split tunneling configuration</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://github.com/sina/vpn-split-tunnel/raw/main/screenshots/apps.png</image>
+      <caption>Application selector with search</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://github.com/sina/vpn-split-tunnel/raw/main/screenshots/domains.png</image>
+      <caption>Domain and IP editor</caption>
+    </screenshot>
+  </screenshots>
+  <releases>
+    <release version="0.1.0" date="2025-01-15">
+      <description>Initial release</description>
+    </release>
+  </releases>
+  <categories>
+    <category>Network</category>
+    <category>Security</category>
+    <category>Settings</category>
+  </categories>
+  <keywords>
+    <keyword>VPN</keyword>
+    <keyword>Split Tunnel</keyword>
+    <keyword>WireGuard</keyword>
+    <keyword>OpenVPN</keyword>
+    <keyword>VLESS</keyword>
+    <keyword>VMESS</keyword>
+    <keyword>Network</keyword>
+    <keyword>Security</keyword>
+  </keywords>
+</component>

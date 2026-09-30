@@ -1,0 +1,50 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Build directories
+builddir/
+dist/
+*.egg-info/
+
+# Meson
+meson-private/
+meson-logs/
+
+# Virtual environments
+venv/
+env/
+.env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Test
+.coverage
+coverage.xml
+.pytest_cache/
+htmlcov/
+
+# MyPy
+.mypy_cache/
+
+# Ruff
+.ruff_cache/
+
+# Logs
+*.log
+
+# Local config
+config.ini
+vpn-split-tunnel.conf
+
+# Screenshots
+screenshots/

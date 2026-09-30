@@ -1,0 +1,87 @@
+[build-system]
+requires = ["meson>=1.2.0", "meson-python>=0.16.0"]
+build-backend = "mesonpython"
+
+[project]
+name = "vpn-split-tunnel"
+version = "0.1.0"
+description = "Universal VPN Split Tunneling Manager for Linux (GTK4/libadwaita)"
+readme = "README.md"
+license = {text = "GPL-3.0-or-later"}
+authors = [
+    {name = "Sina", email = "sina@example.com"}
+]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Environment :: X11 Applications :: GTK",
+    "Intended Audience :: End Users/Desktop",
+    "License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)",
+    "Operating System :: POSIX :: Linux",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: System :: Networking",
+    "Topic :: Security",
+]
+requires-python = ">=3.11"
+dependencies = [
+    "pygobject>=3.48.0",
+    "pycairo>=1.23.0",
+    "gi-docgen>=2024.0",
+]
+dynamic = ["version"]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0.0",
+    "pytest-asyncio>=0.23.0",
+    "pytest-cov>=5.0.0",
+    "ruff>=0.4.0",
+    "mypy>=1.9.0",
+    "pre-commit>=3.6.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/sina/vpn-split-tunnel"
+Repository = "https://github.com/sina/vpn-split-tunnel"
+Issues = "https://github.com/sina/vpn-split-tunnel/issues"
+
+[tool.meson-python]
+build-dir = "builddir"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+python_classes = ["Test*"]
+python_functions = ["test_*"]
+asyncio_mode = "auto"
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+select = ["E", "F", "I", "UP", "B", "C4", "SIM", "ARG", "PTH", "PL", "T20", "TRY", "NPY", "PIE", "TD"]
+ignore = ["S101", "SLF001"]
+per-file-ignores = { "tests/*" = ["S101", "SLF001", "PT011", "PT012"] }
+
+[tool.mypy]
+python_version = "3.11"
+warn_return_any = true
+warn_unused_configs = true
+disallow_untyped_defs = true
+disallow_incomplete_defs = true
+check_untyped_defs = true
+no_implicit_optional = true
+strict_optional = true
+
+[tool.coverage.run]
+source = ["src/vpn_split_tunnel"]
+omit = ["*/tests/*", "*/test_*.py"]
+
+[tool.coverage.report]
+exclude_lines = [
+    "pragma: no cover",
+    "def __repr__",
+    "raise AssertionError",
+    "raise NotImplementedError",
+    "if __name__ == .__main__.:",
+]

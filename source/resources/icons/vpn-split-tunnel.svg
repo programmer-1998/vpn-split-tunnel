@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="256" height="256" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <circle cx="128" cy="128" r="120" fill="#2E9AFE" fill-opacity="0.1"/>
+  
+  <!-- VPN Tunnel representation -->
+  <defs>
+    <linearGradient id="tunnelGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#2E9AFE;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#00D4AA;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2E9AFE;stop-opacity:1" />
+    </linearGradient>
+    
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Main tunnel path -->
+  <path d="M60 128 
+           C80 100, 100 80, 128 80
+           C156 80, 176 100, 196 128
+           C176 156, 156 176, 128 176
+           C100 176, 80 156, 60 128 Z" 
+        fill="none" 
+        stroke="url(#tunnelGradient)" 
+        stroke-width="8" 
+        stroke-linecap="round"
+        filter="url(#glow)"/>
+
+  <!-- Inner tunnel highlight -->
+  <path d="M80 128 
+           C92 110, 108 98, 128 98
+           C148 98, 164 110, 176 128
+           C164 146, 148 158, 128 158
+           C108 158, 92 146, 80 128 Z" 
+        fill="none" 
+        stroke="#FFFFFF" 
+        stroke-width="2" 
+        stroke-linecap="round"
+        stroke-opacity="0.3"/>
+
+  <!-- Split indicator - diagonal line -->
+  <line x1="70" y1="70" x2="186" y2="186" 
+        stroke="#FF6B6B" 
+        stroke-width="4" 
+        stroke-linecap="round"
+        stroke-dasharray="8,4"/>
+
+  <!-- Network nodes -->
+  <circle cx="50" cy="128" r="8" fill="#2E9AFE"/>
+  <circle cx="206" cy="128" r="8" fill="#00D4AA"/>
+  
+  <!-- Small particles around tunnel -->
+  <circle cx="40" cy="90" r="3" fill="#2E9AFE" opacity="0.6"/>
+  <circle cx="216" cy="166" r="3" fill="#00D4AA" opacity="0.6"/>
+  <circle cx="128" cy="40" r="2" fill="#FFFFFF" opacity="0.5"/>
+  <circle cx="128" cy="216" r="2" fill="#FFFFFF" opacity="0.5"/>
+</svg>

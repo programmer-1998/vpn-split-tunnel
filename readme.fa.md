@@ -426,8 +426,10 @@ GTK4 + libadwaita (ظاهرِ بومی در GNOME، و کار در KDE/XFCE و �
 
 ### گزینهٔ الف — پکیج Debian (`.deb`) — Debian / Ubuntu / Zorin / Mint و …
 
-یک پکیج آماده کنار همین مخزن است — `vpn-split-tunnel_0.1.0_all.deb` (بدون نیاز به
-ساخت):
+یک پکیج آماده کنار همین مخزن است — [**دانلود
+`vpn-split-tunnel_0.1.0_all.deb`**](https://github.com/programmer-1998/vpn-split-tunnel/raw/main/vpn-split-tunnel_0.1.0_all.deb)
+(بدون نیاز به ساخت). کد منبع کامل برنامه هم در پوشهٔ [`source/`](source/) همین
+مخزن در دسترس است.
 
 ```bash
 sudo apt install ./vpn-split-tunnel_0.1.0_all.deb    # پیشنهادی — وابستگی‌ها خودکار

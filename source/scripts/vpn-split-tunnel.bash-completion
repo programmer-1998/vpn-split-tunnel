@@ -1,0 +1,21 @@
+# VPN Split Tunnel - Bash completion
+
+_vpn_split_tunnel() {
+    local cur prev opts
+    COMPREPLY=()
+    cur="${COMP_WORDS[COMP_CWORD]}"
+    prev="${COMP_WORDS[COMP_CWORD-1]}"
+    opts="--version --debug --help"
+
+    case "${prev}" in
+        vpn-split-tunnel)
+            COMPREPLY=( $(compgen -W "${opts}" -- ${cur}) )
+            return 0
+            ;;
+    esac
+
+    COMPREPLY=( $(compgen -W "${opts}" -- ${cur}) )
+    return 0
+}
+
+complete -F _vpn_split_tunnel vpn-split-tunnel

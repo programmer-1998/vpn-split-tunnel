@@ -429,8 +429,10 @@ information.
 
 ### Option A — Debian package (`.deb`) — Debian / Ubuntu / Zorin / Mint …
 
-A ready-made package accompanies this repository — `vpn-split-tunnel_0.1.0_all.deb`
-(no build step needed):
+A ready-made package accompanies this repository — [**download
+`vpn-split-tunnel_0.1.0_all.deb`**](https://github.com/programmer-1998/vpn-split-tunnel/raw/main/vpn-split-tunnel_0.1.0_all.deb)
+(no build step needed). The full source code of the application is in the
+[`source/`](source/) directory of this repository.
 
 ```bash
 sudo apt install ./vpn-split-tunnel_0.1.0_all.deb    # recommended – resolves dependencies

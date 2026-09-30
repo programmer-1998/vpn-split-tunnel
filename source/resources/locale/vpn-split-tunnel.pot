@@ -1,0 +1,760 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+#: src/vpn_split_tunnel
+msgid ""
+msgstr ""
+"Project-Id-Version: vpn-split-tunnel 0.1.0\n"
+"Report-Msgid-Bugs-To: https://github.com/sina/vpn-split-tunnel/issues\n"
+"POT-Creation-Date: 2026-01-01 00:00+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: src/vpn_split_tunnel/ui/main_window.py:599
+msgid "%d IP range"
+msgid_plural "%d IP ranges"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/vpn_split_tunnel/ui/main_window.py:583
+msgid "%d application"
+msgid_plural "%d applications"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/vpn_split_tunnel/ui/vpn_selector.py:101
+msgid "%d connection detected"
+msgid_plural "%d connections detected"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/vpn_split_tunnel/ui/main_window.py:595
+msgid "%d domain"
+msgid_plural "%d domains"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/vpn_split_tunnel/ui/domain_editor.py:389
+msgid "%d invalid line was skipped"
+msgid_plural "%d invalid lines were skipped"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/vpn_split_tunnel/ui/app_selector.py:478
+msgid "1 application selected"
+msgstr ""
+
+#: src/vpn_split_tunnel/ui/domain_editor.py:273
+msgid "192.168.1.0/24"
+msgstr ""
+
+#: src/vpn_split_tunnel/ui/domain_editor.py:74
+msgid "192.168.1.0/24 or 10.0.0.1"
+msgstr ""
+
+#: src/vpn_split_tunnel/ui/vpn_selector.py:121
+msgid "A tunnel the detectors did not recognise can be added here"
+msgstr ""
+
+#: src/vpn_split_tunnel/ui/domain_editor.py:88
+msgid "Actions"
+msgstr ""
+
+#: src/vpn_split_tunnel/ui/domain_editor.py:58
+msgid "Add"
+msgstr ""
+
+#: src/vpn_split_tunnel/ui/domain_editor.py:46
+msgid "Add Domain"
+msgstr ""
+
+#: src/vpn_split_tunnel/ui/domain_editor.py:67
+msgid "Add IP Address / CIDR"
+msgstr ""
+
+#: src/vpn_split_tunnel/ui/vpn_selector.py:158
+msgid "Add a VPN manually"
+msgstr ""
+
+#: src/vpn_split_tunnel/ui/domain_editor.py:82
+msgid "Add the IP address or CIDR above to the list"
+msgstr ""
+
+#: src/vpn_split_tunnel/ui/domain_editor.py:61
+msgid "Add the domain above to the list"
+msgstr ""
+
+#: src/vpn_split_tunnel/ui/app_selector.py:117
+msgid "All System (apply to all traffic)"
+msgstr ""
+
+#: src/vpn_split_tunnel/ui/domain_editor.py:344
+msgid "All files"
+msgstr ""
+
+#: src/vpn_split_tunnel/ui/main_window.py:578
+msgid "All system traffic"
+msgstr ""
+
+#: src/vpn_split_tunnel/ui/app_selector.py:157
+msgid "All system traffic (default)"
+msgstr ""
+
+#: src/vpn_split_tunnel/ui/vpn_selector.py:345
+msgid "Also seen as"
+msgstr ""
+
+#: src/vpn_split_tunnel/ui/preferences.py:68
+msgid "Appearance"
+msgstr ""
+
+#: src/vpn_split_tunnel/ui/main_window.py:279
+msgid "Applications"
+msgstr ""
+
+#: src/vpn_split_tunnel/ui/action_bar.py:65
+msgid "Apply Rules"
+msgstr ""
+
+#: src/vpn_split_tunnel/ui/main_window.py:39
+msgid "Apply or remove split tunneling rules"
+msgstr ""
+
+#: src/vpn_split_tunnel/ui/preferences.py:52
+msgid "Apply rules on startup"
+msgstr ""
+
+#: src/vpn_split_tunnel/ui/app_selector.py:118
+msgid "Apply split tunneling to all system traffic"
+msgstr ""
+
+#: src/vpn_split_tunnel/ui/app_selector.py:126
+msgid "Apply the split tunnel to all system traffic"
+msgstr ""
+
+#: src/vpn_split_tunnel/ui/domain_editor.py:316
+msgid "Are you sure you want to remove all domains and IP addresses?"
+msgstr ""
+
+#: src/vpn_split_tunnel/ui/main_window.py:840
+msgid "Are you sure you want to reset all settings to defaults? This will clear all selected apps, domains, IPs, and mode."
+msgstr ""
+
+#: src/vpn_split_tunnel/ui/preferences.py:44
+msgid "Auto-detect VPN"
+msgstr ""
+
+#: src/vpn_split_tunnel/ui/preferences.py:53
+msgid "Automatically apply last used split tunneling rules on application start"
+msgstr ""
+
+#: src/vpn_split_tunnel/ui/preferences.py:45
+msgid "Automatically detect active VPN connections on startup"
+msgstr ""
+
+#: src/vpn_split_tunnel/ui/preferences.py:37
+msgid "Behavior"
+msgstr ""
+
+#: src/vpn_split_tunnel/ui/domain_editor.py:193
+msgid "CIDR"
+msgstr ""
+
+#: src/vpn_split_tunnel/ui/main_window.py:334
+msgid "Calculated from your current system routing table, before anything is changed"
+msgstr ""
+
+#: src/vpn_split_tunnel/ui/domain_editor.py:266
+msgid "Cancel"
+msgstr ""
+
+#: src/vpn_split_tunnel/ui/preferences.py:155
+msgid "Cgroup Slice"
+msgstr ""
+
+#: src/vpn_split_tunnel/ui/preferences.py:93
+msgid "Choose application language (requires restart)"
+msgstr ""
+
+#: src/vpn_split_tunnel/ui/preferences.py:82
+msgid "Choose application theme"
+msgstr ""
+
+#: src/vpn_split_tunnel/ui/main_window.py:36
+msgid "Choose how split tunneling should work"
+msgstr ""
+
+#: src/vpn_split_tunnel/ui/domain_editor.py:94
+msgid "Clear All"
+msgstr ""
+
+#: src/vpn_split_tunnel/ui/domain_editor.py:315
+msgid "Clear All Entries"
+msgstr ""
+
+#: src/vpn_split_tunnel/ui/main_window.py:370
+msgid "Clear the form and restore the initial settings"
+msgstr ""
+
+#: src/vpn_split_tunnel/ui/vpn_selector.py:347
+msgid "Config File"
+msgstr ""
+
+#: src/vpn_split_tunnel/ui/vpn_selector.py:153
+msgid "Connect a VPN, then scan again. Nothing is started by this app."
+msgstr ""
+
+#: src/vpn_split_tunnel/ui/vpn_selector.py:136
+msgid "Connections"
+msgstr ""
+
+#: src/vpn_split_tunnel/ui/domain_editor.py:118
+msgid "Current List"
+msgstr ""
+
+#: src/vpn_split_tunnel/ui/main_window.py:300
+msgid "Current Rules"
+msgstr ""
+
+#: src/vpn_split_tunnel/ui/vpn_selector.py:339
+msgid "DNS Servers"
+msgstr ""
+
+#: src/vpn_split_tunnel/ui/preferences.py:79
+msgid "Dark"
+msgstr ""
+
+#: src/vpn_split_tunnel/ui/main_window.py:35
+msgid "Detected VPN status and details"
+msgstr ""
+
+#: src/vpn_split_tunnel/ui/vpn_selector.py:67
+msgid "Detected VPNs"
+msgstr ""
+
+#: src/vpn_split_tunnel/ui/main_window.py:224
+msgid "Developed by Sina Khanzadeh"
+msgstr ""
+
+#: src/vpn_split_tunnel/ui/preferences.py:62
+msgid "Display desktop notifications when rules are applied or removed"
+msgstr ""
+
+#: src/vpn_split_tunnel/ui/domain_editor.py:190
+msgid "Domain"
+msgstr ""
+
+#: src/vpn_split_tunnel/ui/domain_editor.py:35
+msgid "Domains and IP Addresses"
+msgstr ""
+
+#: src/vpn_split_tunnel/ui/domain_editor.py:119
+msgid "Domains and IP addresses currently configured"
+msgstr ""
+
+#: src/vpn_split_tunnel/ui/domain_editor.py:263
+msgid "Edit Entry"
+msgstr ""
+
+#: src/vpn_split_tunnel/ui/domain_editor.py:207
+msgid "Edit this entry"
+msgstr ""
+
+#: src/vpn_split_tunnel/ui/domain_editor.py:36
+msgid "Enter domains or IP addresses (one per line). Supports CIDR notation for IP ranges. Empty by default."
+msgstr ""
+
+#: src/vpn_split_tunnel/ui/domain_editor.py:442
+msgid "Error"
+msgstr ""
+
+#: src/vpn_split_tunnel/ui/vpn_selector.py:106
+msgid "Every tunnel that is up right now, with its addresses"
+msgstr ""
+
+#: src/vpn_split_tunnel/ui/mode_selector.py:54
+msgid "Everything goes through VPN EXCEPT selected applications and domains. They use direct connection."
+msgstr ""
+
+#: src/vpn_split_tunnel/ui/main_window.py:573
+msgid "Everything goes through the VPN except the selected apps and addresses"
+msgstr ""
+
+#: src/vpn_split_tunnel/ui/mode_selector.py:53
+msgid "Exclude Mode (Inverse Split/Reverse)"
+msgstr ""
+
+#: src/vpn_split_tunnel/ui/mode_selector.py:62
+msgid "Exclude mode: everything except the selected apps and domains uses the VPN"
+msgstr ""
+
+#: src/vpn_split_tunnel/ui/domain_editor.py:399
+msgid "Export Domains/IPs"
+msgstr ""
+
+#: src/vpn_split_tunnel/ui/domain_editor.py:109
+msgid "Export to file"
+msgstr ""
+
+#: src/vpn_split_tunnel/ui/main_window.py:814
+msgid "Failed to apply rules"
+msgstr ""
+
+#: src/vpn_split_tunnel/ui/preferences.py:129
+msgid "Firewall Mark"
+msgstr ""
+
+#: src/vpn_split_tunnel/ui/vpn_selector.py:337
+msgid "Gateway"
+msgstr ""
+
+#: src/vpn_split_tunnel/ui/preferences.py:33
+msgid "General"
+msgstr ""
+
+#: src/vpn_split_tunnel/ui/domain_editor.py:196
+msgid "IP"
+msgstr ""
+
+#: src/vpn_split_tunnel/ui/vpn_selector.py:332
+msgid "IP Addresses"
+msgstr ""
+
+#: src/vpn_split_tunnel/ui/domain_editor.py:335
+msgid "Import Domains/IPs"
+msgstr ""
+
+#: src/vpn_split_tunnel/ui/domain_editor.py:102
+msgid "Import from file"
+msgstr ""
+
+#: src/vpn_split_tunnel/ui/mode_selector.py:37
+msgid "Include Mode (Split-Include)"
+msgstr ""
+
+#: src/vpn_split_tunnel/ui/mode_selector.py:46
+msgid "Include mode: only the selected apps and domains use the VPN"
+msgstr ""
+
+#: src/vpn_split_tunnel/ui/action_bar.py:70
+msgid "Install the split-tunnel rules into the live network (asks for admin permission)"
+msgstr ""
+
+#: src/vpn_split_tunnel/ui/app_selector.py:104
+msgid "Installed Applications"
+msgstr ""
+
+#: src/vpn_split_tunnel/ui/vpn_selector.py:325
+msgid "Interface"
+msgstr ""
+
+#: src/vpn_split_tunnel/ui/domain_editor.py:253
+msgid "Invalid IP address or CIDR notation"
+msgstr ""
+
+#: src/vpn_split_tunnel/ui/preferences.py:92
+msgid "Language"
+msgstr ""
+
+#: src/vpn_split_tunnel/ui/preferences.py:78
+msgid "Light"
+msgstr ""
+
+#: src/vpn_split_tunnel/ui/domain_editor.py:105
+msgid "Load domains and IPs from a text file"
+msgstr ""
+
+#: src/vpn_split_tunnel/ui/vpn_selector.py:72
+msgid "Looking for active VPN connections"
+msgstr ""
+
+#: src/vpn_split_tunnel/ui/preferences.py:142
+msgid "Lower runs first. Must be below your VPN client's own rules, or they take precedence and these never apply"
+msgstr ""
+
+#: src/vpn_split_tunnel/ui/vpn_selector.py:341
+msgid "MTU"
+msgstr ""
+
+#: src/vpn_split_tunnel/ui/main_window.py:38
+msgid "Manage domains and IP ranges"
+msgstr ""
+
+#: src/vpn_split_tunnel/ui/vpn_selector.py:119
+msgid "Manual entry"
+msgstr ""
+
+#: src/vpn_split_tunnel/ui/main_window.py:312
+msgid "Mode"
+msgstr ""
+
+#: src/vpn_split_tunnel/ui/mode_selector.py:31
+msgid "Mode Selection"
+msgstr ""
+
+#: src/vpn_split_tunnel/ui/domain_editor.py:264
+msgid "Modify the domain or IP address:"
+msgstr ""
+
+#: src/vpn_split_tunnel/ui/preferences.py:99
+msgid "Network"
+msgstr ""
+
+#: src/vpn_split_tunnel/ui/action_bar.py:47
+msgid "No VPN selected"
+msgstr ""
+
+#: src/vpn_split_tunnel/ui/main_window.py:616
+msgid "No VPN selected, so there is nothing to calculate yet."
+msgstr ""
+
+#: src/vpn_split_tunnel/ui/vpn_selector.py:97
+msgid "No active VPN tunnel was found on this system"
+msgstr ""
+
+#: src/vpn_split_tunnel/ui/app_selector.py:470
+msgid "No applications selected"
+msgstr ""
+
+#: src/vpn_split_tunnel/ui/domain_editor.py:134
+msgid "No domains or IPs added yet. Add some above."
+msgstr ""
+
+#: src/vpn_split_tunnel/ui/main_window.py:590
+msgid "None"
+msgstr ""
+
+#: src/vpn_split_tunnel/ui/main_window.py:563
+msgid "None selected"
+msgstr ""
+
+#: src/vpn_split_tunnel/ui/vpn_selector.py:152
+msgid "Not connected to any VPN"
+msgstr ""
+
+#: src/vpn_split_tunnel/ui/main_window.py:659
+msgid "Note"
+msgstr ""
+
+#: src/vpn_split_tunnel/ui/domain_editor.py:445
+msgid "OK"
+msgstr ""
+
+#: src/vpn_split_tunnel/ui/mode_selector.py:38
+msgid "Only selected applications and domains go through VPN. Everything else uses direct connection."
+msgstr ""
+
+#: src/vpn_split_tunnel/ui/main_window.py:569
+msgid "Only the selected apps and addresses go through the VPN"
+msgstr ""
+
+#: src/vpn_split_tunnel/ui/vpn_selector.py:125
+msgid "Pick a tunnel interface, or type its name"
+msgstr ""
+
+#: src/vpn_split_tunnel/ui/vpn_selector.py:259
+msgid "Pick a tunnel interface, or type its name."
+msgstr ""
+
+#: src/vpn_split_tunnel/ui/domain_editor.py:234
+msgid "Please enter a valid domain"
+msgstr ""
+
+#: src/vpn_split_tunnel/ui/preferences.py:121
+msgid "Policy routing table number (1-255)"
+msgstr ""
+
+#: src/vpn_split_tunnel/ui/preferences.py:25
+msgid "Preferences"
+msgstr ""
+
+#: src/vpn_split_tunnel/ui/vpn_selector.py:343
+msgid "Processes"
+msgstr ""
+
+#: src/vpn_split_tunnel/ui/vpn_selector.py:328
+msgid "Protocol"
+msgstr ""
+
+#: src/vpn_split_tunnel/ui/vpn_selector.py:127
+msgid "Register a tunnel the detectors missed"
+msgstr ""
+
+#: src/vpn_split_tunnel/ui/action_bar.py:57
+msgid "Remove Rules"
+msgstr ""
+
+#: src/vpn_split_tunnel/ui/domain_editor.py:98
+msgid "Remove every domain and IP from the list"
+msgstr ""
+
+#: src/vpn_split_tunnel/ui/domain_editor.py:215
+msgid "Remove this entry"
+msgstr ""
+
+#: src/vpn_split_tunnel/ui/main_window.py:843
+msgid "Reset"
+msgstr ""
+
+#: src/vpn_split_tunnel/ui/main_window.py:366
+msgid "Reset to Defaults"
+msgstr ""
+
+#: src/vpn_split_tunnel/ui/main_window.py:339
+msgid "Result"
+msgstr ""
+
+#: src/vpn_split_tunnel/ui/preferences.py:103
+msgid "Routing Configuration"
+msgstr ""
+
+#: src/vpn_split_tunnel/ui/preferences.py:120
+msgid "Routing Table ID"
+msgstr ""
+
+#: src/vpn_split_tunnel/ui/preferences.py:140
+msgid "Rule Priority"
+msgstr ""
+
+#: src/vpn_split_tunnel/ui/main_window.py:809
+msgid "Rules applied successfully"
+msgstr ""
+
+#: src/vpn_split_tunnel/ui/main_window.py:805
+msgid "Rules applied with warnings"
+msgstr ""
+
+#: src/vpn_split_tunnel/ui/main_window.py:833
+msgid "Rules removed successfully"
+msgstr ""
+
+#: src/vpn_split_tunnel/ui/vpn_selector.py:237
+msgid "Rules target this VPN"
+msgstr ""
+
+#: src/vpn_split_tunnel/ui/domain_editor.py:267
+msgid "Save"
+msgstr ""
+
+#: src/vpn_split_tunnel/ui/domain_editor.py:112
+msgid "Save the current domains and IPs to a text file"
+msgstr ""
+
+#: src/vpn_split_tunnel/ui/vpn_selector.py:77
+msgid "Scan again"
+msgstr ""
+
+#: src/vpn_split_tunnel/ui/vpn_selector.py:71
+msgid "Scanning..."
+msgstr ""
+
+#: src/vpn_split_tunnel/ui/app_selector.py:133
+msgid "Search"
+msgstr ""
+
+#: src/vpn_split_tunnel/ui/app_selector.py:137
+msgid "Search applications..."
+msgstr ""
+
+#: src/vpn_split_tunnel/ui/main_window.py:37
+msgid "Select applications to include or exclude from the VPN tunnel"
+msgstr ""
+
+#: src/vpn_split_tunnel/ui/vpn_selector.py:137
+msgid "Select the connection the rules should apply to"
+msgstr ""
+
+#: src/vpn_split_tunnel/ui/app_selector.py:306
+msgid "Select this application for the split tunnel"
+msgstr ""
+
+#: src/vpn_split_tunnel/ui/app_selector.py:156
+msgid "Selected"
+msgstr ""
+
+#: src/vpn_split_tunnel/ui/vpn_selector.py:190
+msgid "Send the split tunnel through this VPN"
+msgstr ""
+
+#: src/vpn_split_tunnel/ui/main_window.py:869
+msgid "Settings reset to defaults"
+msgstr ""
+
+#: src/vpn_split_tunnel/ui/preferences.py:61
+msgid "Show notifications"
+msgstr ""
+
+#: src/vpn_split_tunnel/ui/main_window.py:275
+msgid "Split Tunneling Mode"
+msgstr ""
+
+#: src/vpn_split_tunnel/ui/app_selector.py:329
+msgid "Start this application so its traffic can be told apart"
+msgstr ""
+
+#: src/vpn_split_tunnel/ui/main_window.py:294
+msgid "Status and Actions"
+msgstr ""
+
+#: src/vpn_split_tunnel/ui/main_window.py:533
+msgid "Status: Active"
+msgstr ""
+
+#: src/vpn_split_tunnel/ui/main_window.py:536
+msgid "Status: Applying..."
+msgstr ""
+
+#: src/vpn_split_tunnel/ui/main_window.py:538
+msgid "Status: Error"
+msgstr ""
+
+#: src/vpn_split_tunnel/ui/action_bar.py:41
+msgid "Status: Ready"
+msgstr ""
+
+#: src/vpn_split_tunnel/ui/preferences.py:77
+msgid "System"
+msgstr ""
+
+#: src/vpn_split_tunnel/ui/preferences.py:112
+msgid "TUN interface name (e.g., tun0, wg0, xray_tun)"
+msgstr ""
+
+#: src/vpn_split_tunnel/ui/main_window.py:307
+msgid "Target VPN"
+msgstr ""
+
+#: src/vpn_split_tunnel/ui/domain_editor.py:340
+msgid "Text files"
+msgstr ""
+
+#: src/vpn_split_tunnel/ui/vpn_selector.py:181
+msgid "The rules target this connection"
+msgstr ""
+
+#: src/vpn_split_tunnel/ui/preferences.py:72
+msgid "Theme"
+msgstr ""
+
+#: src/vpn_split_tunnel/ui/main_window.py:351
+msgid "These do not stop the rules from being installed, but they decide what the rules can actually do"
+msgstr ""
+
+#: src/vpn_split_tunnel/ui/app_selector.py:194
+msgid "These files are not listed below, so they cannot be selected for split tunneling"
+msgstr ""
+
+#: src/vpn_split_tunnel/ui/main_window.py:349
+msgid "Things To Know"
+msgstr ""
+
+#: src/vpn_split_tunnel/ui/app_selector.py:324
+msgid "This application is running where the split tunnel can see it"
+msgstr ""
+
+#: src/vpn_split_tunnel/ui/app_selector.py:106
+msgid "Traffic can only be told apart per application for applications running in this app's own group. Use the play button to start one that way; an application started any other way cannot be separated from the rest of the system."
+msgstr ""
+
+#: src/vpn_split_tunnel/ui/vpn_selector.py:335
+msgid "Tunnel Peer"
+msgstr ""
+
+#: src/vpn_split_tunnel/ui/vpn_selector.py:261
+msgid "Type the VPN interface name, for example tun0 or wg0."
+msgstr ""
+
+#: src/vpn_split_tunnel/ui/action_bar.py:61
+msgid "Undo the rules this app applied"
+msgstr ""
+
+#: src/vpn_split_tunnel/ui/main_window.py:157
+msgid "Universal VPN Split Tunneling"
+msgstr ""
+
+#: src/vpn_split_tunnel/ui/about.py:25
+msgid "Universal VPN Split Tunneling Manager for Linux.\n\nDeveloped by Sina Khanzadeh\n\nContact:\nTelegram: @programmer_1998\nDiscord: @programmer_1998\nInstagram: @programmer_1998\nWebsite: sina-khanzadeh.ir\nEmail: khanzadeh.1377@gmail.com"
+msgstr ""
+
+#: src/vpn_split_tunnel/ui/app_selector.py:204
+msgid "Unreadable entry"
+msgstr ""
+
+#: src/vpn_split_tunnel/ui/vpn_selector.py:186
+msgid "Use this VPN"
+msgstr ""
+
+#: src/vpn_split_tunnel/ui/main_window.py:271
+msgid "VPN Connection"
+msgstr ""
+
+#: src/vpn_split_tunnel/ui/preferences.py:111
+msgid "VPN Interface"
+msgstr ""
+
+#: src/vpn_split_tunnel/ui/main_window.py:45
+msgid "VPN Split Tunnel"
+msgstr ""
+
+#: src/vpn_split_tunnel/ui/main_window.py:332
+msgid "What This Will Do"
+msgstr ""
+
+#: src/vpn_split_tunnel/ui/main_window.py:302
+msgid "What will be applied when you press Apply Rules"
+msgstr ""
+
+#: src/vpn_split_tunnel/ui/domain_editor.py:53
+msgid "example.com"
+msgstr ""
+
+#: src/vpn_split_tunnel/ui/preferences.py:130
+msgid "fwmark value for policy routing (1-2147483647)"
+msgstr ""
+
+#: src/vpn_split_tunnel/ui/preferences.py:156
+msgid "systemd slice name for cgroup v2 (e.g., vpn-split-tunnel.slice)"
+msgstr ""
+
+#: src/vpn_split_tunnel/ui/vpn_selector.py:319
+msgid "via %s"
+msgstr ""
+
+#: src/vpn_split_tunnel/ui/app_selector.py:190
+msgid "{count} application entries could not be read"
+msgstr ""
+
+#: src/vpn_split_tunnel/ui/app_selector.py:187
+msgid "{count} application entry could not be read"
+msgstr ""
+
+#: src/vpn_split_tunnel/ui/app_selector.py:480
+msgid "{count} applications selected"
+msgstr ""
+
+#: src/vpn_split_tunnel/ui/app_selector.py:390
+msgid "{name} is running where the split tunnel can see it."
+msgstr ""
+
+#: src/vpn_split_tunnel/ui/app_selector.py:426
+msgid "{name} started, but it is not in the split group, so its traffic cannot be told apart from the rest of the system."
+msgstr ""
+
+#: src/vpn_split_tunnel/ui/app_selector.py:484
+msgid "{selection} · none started yet, so none can be matched"
+msgstr ""
+
+#: src/vpn_split_tunnel/ui/app_selector.py:490
+msgid "{selection} · {started} started"
+msgstr ""
+
+#: src/vpn_split_tunnel/ui/main_window.py:635
+msgid "{total} of those are applications, and {running} of them are running where the rules can tell their traffic apart."
+msgstr ""
