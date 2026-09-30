@@ -16,6 +16,10 @@
 
 > 🌐 **English:** [the English version is here](readme.md)
 
+## تصویر برنامه
+
+![VPN Split Tunnel — پنجرهٔ اصلی](screenshot.png)
+
 ---
 
 ## فهرست مطالب

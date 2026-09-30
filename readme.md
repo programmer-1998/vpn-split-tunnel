@@ -15,6 +15,10 @@ The application is fully localized in **English** and **Persian (RTL)**.
 
 > 📖 **فارسی:** [نسخهٔ فارسی این مستند را اینجا بخوانید](readme.fa.md)
 
+## Screenshot
+
+![VPN Split Tunnel — main window](screenshot.png)
+
 ---
 
 ## Table of Contents
