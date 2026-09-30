@@ -449,7 +449,13 @@ metainfo، سیاست polkit، bash completion، استایل‌شیت و فهر
 
 - از منوی برنامه‌ها: **VPN Split Tunnel** (در نشست فارسی با نام فارسی‌اش نمایش
   داده می‌شود).
-- از ترمینال: `vpn-split-tunnel` (از `--version` و `--help` پشتیبانی می‌کند).
+- از ترمینال: `vpn-split-tunnel` (از `--version`، `--debug` و `--help` پشتیبانی
+  می‌کند).
+- **رفع‌اشکال کرش:** از ترمینال `vpn-split-tunnel --debug` را اجرا کنید. هر خط
+  لاگی که برنامه تولید می‌کند — بارگذاری پیکربندی، تشخیص VPN، هر فرمان
+  `nft`/`ip` که اجرا می‌شود، resolve دامنه‌ها، و هر خطا یا استثنای پوشش‌نداده —
+  در ترمینال چاپ می‌شود. این خروجی را در گزارش باگ بچسبانید تا مشکل قابل
+  بازتولید باشد.
 
 در هیچ جای ساخت، ابزار gettext لازم نیست — فایل‌های ترجمه با اسکریپت‌های همراه
 پروژه کامپایل می‌شوند (`tools/msgfmt.py`، `tools/sync_pot.py`).
@@ -461,8 +467,26 @@ metainfo، سیاست polkit، bash completion، استایل‌شیت و فهر
 `nftables` · `iproute2` · سیستم‌د (cgroup v2 + `systemd-run`) · polkit +
 `pkexec`. همه در مخازن استاندارد همهٔ توزیع‌های اصلی موجودند.
 
+**نصب روی Debian / Ubuntu / Zorin / Mint و…** (برای `.deb` آماده هیچ‌کدام لازم
+نیست — `apt` همه را خودکار حل می‌کند؛ این دستورات فقط برای ساخت یا اجرا از
+خروجی سورس لازم‌اند):
+
+```bash
+sudo apt install \
+  python3 python3-gi python3-gi-cairo \
+  gir1.2-gtk-4.0 gir1.2-adw-1 gir1.2-glib-2.0 gir1.2-gio-2.0 \
+  libgtk-4-dev libadwaita-1-dev \
+  nftables iproute2 policykit-1 \
+  meson ninja-build
+```
+
 **ساخت:** meson 1.2+ و پایتون 3.10+ (کامپایلر `.po`→`.mo` یک اسکریپت پایتونی
-همراه پروژه است).
+همراه پروژه است). هنگام اجرا از خروجی سورس، اگر پایتون نتواند `gi` را ایمپورت
+کند:
+
+```bash
+pip3 install --user pycairo pygobject
+```
 
 ## فایل پیکربندی
 
@@ -492,10 +516,13 @@ language = system                        # system | en | fa
 ## خط فرمان
 
 ```
-vpn-split-tunnel [--version] [--help]
+vpn-split-tunnel [--version] [--debug] [--help]
 ```
 
 - `--version` — نسخه را چاپ می‌کند و خارج می‌شود.
+- `--debug` — لاگ‌گرفتن کامل debug را در ترمینال فعال می‌کند (بارگذاری
+  پیکربندی، تشخیص VPN، هر فرمان `nft`/`ip`، resolve دامنه‌ها، خطاها و
+  استثناهای پوشش‌نداده). برای گزارش کرش در نظر گرفته شده است.
 - `--help` — راهنمای استاندارد گزینه‌های GLib.
 
 ## توسعه و تست

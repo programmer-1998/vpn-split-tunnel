@@ -452,7 +452,13 @@ catalogue (`/usr/share/locale/fa/LC_MESSAGES/vpn-split-tunnel.mo`).
 
 - From the application menu: **VPN Split Tunnel** (shown as its Persian name in
   Persian sessions).
-- From a terminal: `vpn-split-tunnel` (supports `--version` and `--help`).
+- From a terminal: `vpn-split-tunnel` (supports `--version`, `--debug` and
+  `--help`).
+- **Troubleshooting a crash:** run `vpn-split-tunnel --debug` from a terminal.
+  Every log line the application produces — config loading, VPN detection, each
+  `nft`/`ip` command it runs, domain resolution, and any error or uncaught
+  exception — is printed to the terminal. Paste that output into a bug report
+  so the failure can be reproduced.
 
 No gettext tools are needed anywhere in the build — translation files are
 compiled by bundled scripts (`tools/msgfmt.py`, `tools/sync_pot.py`).
@@ -464,8 +470,25 @@ compiled by bundled scripts (`tools/msgfmt.py`, `tools/sync_pot.py`).
 `nftables` · `iproute2` · systemd (cgroup v2 + `systemd-run`) · polkit +
 `pkexec`. All are in the standard repositories of every major distribution.
 
+**Install on Debian / Ubuntu / Zorin / Mint …** (nothing here is needed for the
+ready-made `.deb` — `apt` resolves all of this automatically; run these only
+when building or running from a source checkout):
+
+```bash
+sudo apt install \
+  python3 python3-gi python3-gi-cairo \
+  gir1.2-gtk-4.0 gir1.2-adw-1 gir1.2-glib-2.0 gir1.2-gio-2.0 \
+  libgtk-4-dev libadwaita-1-dev \
+  nftables iproute2 policykit-1 \
+  meson ninja-build
+```
+
 **Build:** meson 1.2+ and Python 3.10+ (the `.po`→`.mo` compiler is a bundled
-Python script).
+Python script). From a source checkout:
+
+```bash
+pip3 install --user pycairo pygobject   # if python3 -c "import gi" fails
+```
 
 ## Configuration File
 
@@ -495,10 +518,13 @@ precedence and these never apply; the app detects this and warns you.
 ## Command Line
 
 ```
-vpn-split-tunnel [--version] [--help]
+vpn-split-tunnel [--version] [--debug] [--help]
 ```
 
 - `--version` — prints the version and exits.
+- `--debug` — enables full debug logging to the terminal (config loading, VPN
+  detection, every `nft`/`ip` command, domain resolution, errors and uncaught
+  exceptions). Intended for crash reporting.
 - `--help` — GLib's standard option help.
 
 ## Testing & Development
